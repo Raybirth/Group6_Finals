@@ -3,16 +3,17 @@
 ## Basic Authentication
 
 ### Members:
-MACROHON, Hannah Nicole
-
-RAYMUNDO, Hugh Daniel
-
-RIVAS, Judandrew
 
 ANTONIO, Mark Justine
 
 AUSTRIA, Ailecsis Alron Arl
 
+BALOLOY, Czyrelle
+
 DIMAUNAHAN, Gerald
 
-BALOLOY, Czyrelle
+MACROHON, Hannah Nicole
+
+RAYMUNDO, Hugh Daniel
+
+RIVAS, Judandrew
