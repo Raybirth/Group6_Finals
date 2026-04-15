@@ -1,5 +1,6 @@
 # Group6_Finals
 
-Basic Authentication
+## Basic Authentication
 
-Apply to System
+### Apply to System
+
