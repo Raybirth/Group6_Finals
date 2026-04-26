@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('participants', function (Blueprint $table) {
         $table->id();
         $table->string('participant_name', 100);
+        $table->foreignId('event_id')->constrained()->onDelete('cascade');
         $table->timestamps();
     });
     }
