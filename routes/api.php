@@ -3,21 +3,18 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
-use App\Http\Controllers\EventCrudApiController;
+use App\Http\Controllers\EventsController;
 use App\Http\Controllers\ParticipantController;
 use App\Http\Controllers\RegistrationController;
 use App\Http\Controllers\AnalyticsController;
-
-Route::get('/admin', function () {
-    return response()->json(['ok' => true]);
-});
+use App\Models\Events;
 
 Route::get('/admin', function (Request $request) {
     return response()->json(['message' => 'Welcome admin']);
 })->middleware('auth.basic');
 
 Route::middleware('auth.basic')->group(function (){
-    Route::apiResource('events', EventCrudApiController::class);
+    Route::apiResource('events', EventsController::class);
     Route::apiResource('participants', ParticipantController::class);
     Route::apiResource('reg', RegistrationController::class);
 

@@ -1,7 +1,32 @@
-## ATTENTION
+# Group6_Finals
 
-Kailangan individaully po tayo magpush kasi baka walng macredit na grade sa iba if di makita yung pangalan nyo sa repo
+## Basic Authentication
 
-So, please magchat po sa GC kung pwede kayo magpush para magawan ng paraan yung ibang di kaya.
+### Members:
 
-# Also, meet po tayo 8 AM Monday (April 27) para maexplain po yung system
+ANTONIO, Mark Justine
+- Added CRUD APIs
+- Updated api.php
+
+AUSTRIA, Ailecsis Alron Arl
+- Update README.md
+
+BALOLOY, Czyrelle
+- Update README.md
+
+DIMAUNAHAN, Gerald
+- Update README.md
+
+MACROHON, Hannah Nicole
+- Added DB Migrations
+
+RAYMUNDO, Hugh Daniel
+- Update .env file
+- Added Models
+- Added Seeeders
+- Added Factories
+
+RIVAS, Judandrew
+- Update README.md
+- Updated Models
+- Added Analytics Controller
